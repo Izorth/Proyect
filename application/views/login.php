@@ -74,8 +74,8 @@
     <p><u><h2>Autentification System</h2></u></p><br>
     <p>&nbsp;</p>   
     <p>Example:</p>
-    <p><strong>e-mail</strong>: gonzalo@esto.es</p>
-    <p><strong>contraseña</strong>: simpson123</strong></p>
+    <p><strong>E-mail</strong>: gonzalo@esto.es</p>
+    <p><strong>Password</strong>: simpson123</strong></p>
 </div>
 
 </body>
