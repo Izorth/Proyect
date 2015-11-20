@@ -74,8 +74,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<p>Garp Company es una empresa dedicada al desarrollo de aplicaciones moviles y especializada en video juegos.</p>
 
 		<p>Comprometido con el labor de masificar la diversión y proporcionar herramientas utiles para los usuarios, ya sean:</p>
-		<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		<code><p>>Desarrollo de videojuegos</p>
+			<p>>Soporte de motores gráficos</p></code>
 
 		<p>The corresponding controller for this page is found at:</p>
 		<code>application/controllers/Welcome.php</code>
