@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Php extends CI_Controller {
 	function login($idioma=null){
 		parent:: __construct();
-		$this->config->set_item('language', 'spanish');// setear dinamicamente el idioma que deseamos que ejecute nuestra aplicacion
+		//$this->config->set_item('language', 'spanish');// setear dinamicamente el idioma que deseamos que ejecute nuestra aplicacion
 		if(!isset($_POST['maillogin'])){//si no recibimos ningun valor proveniente del formulario, significa que el usuario recien ingresa
 			$this->load->view('login');//Pantalla formulario de ingreso
 
