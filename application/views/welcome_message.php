@@ -31,7 +31,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		font-size: 19px;
 		font-weight: normal;
 		margin: 0 0 14px 0;
-		padding: 14px 15px 10px 15px;
+		padding: 18px 17px 12px 17px;
 	}
 
 	code {
@@ -68,13 +68,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <body>
 
 <div id="container">
-	<h1>Garp Company!</h1>
+	<h1>Garp Company!</h1><br>
 
 	<div id="body">
 		<p>Garp Company es una empresa dedicada al desarrollo de aplicaciones moviles y especializada en video juegos.</p>
 
 		<p>Comprometido con el labor de masificar la diversión y proporcionar herramientas utiles para los usuarios, ya sean:</p>
-		<code>kjadsfhjdgsf</code>
+		<code></code>
 
 		<p>The corresponding controller for this page is found at:</p>
 		<code>application/controllers/Welcome.php</code>

@@ -41,7 +41,7 @@
 <body style="margin-top:0px">
 <?php echo form_open('php/login'); ?>
 <div class="Info">
-    <p class="Titulo"><h1>Login with e-mail and password</h1></p>
+    <p class="Titulo"><h1>Ingrese usuario(e-mail) y contraseña</h1></p>
     <p>&nbsp;</p>   
 </div>
 <div id="LoginUsuarios">
@@ -71,7 +71,7 @@
 </form>
 <p>&nbsp;</p>
 <div class="Info">
-    <p><u><h2>Autentification</h2></u></p>
+    <p><u><h2>Sistema de Autentificatión</h2></u></p><br>
     <p>&nbsp;</p>   
     <p>Example:</p>
     <p><strong>e-mail</strong>: gonzalo@esto.es</p>
