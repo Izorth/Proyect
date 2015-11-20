@@ -68,14 +68,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <body>
 
 <div id="container">
-	<h1>Garp Company!</h1><br>
+	<h1>Bienvenido a Garp Company!</h1><br>
 
 	<div id="body">
-		<p>Garp Company es una empresa dedicada al desarrollo de aplicaciones moviles y especializada en video juegos.</p>
+		<p>Garp Company es una empresa dedicada al desarrollo de aplicaciones moviles y especializada en video juegos. Nació esta empresa con la idea de incrementar la entretención. Si bien ya hay varias empresas dedicadas a la creación de juegos virtuales, simplemente nuetra idea es seguir innovando en juegos y dar a conocer a todo el publico apasionado a los videogames, nuestras visiones de diversión, los invitamos a ser parte de este viaje</p>
 
 		<p>Comprometido con el labor de masificar la diversión y proporcionar herramientas utiles para los usuarios, ya sean:</p>
 		<code><p>>Desarrollo de videojuegos</p>
-			<p>>Soporte de motores gráficos</p></code>
+			<p>>Soporte de motores gráficos</p>
+			<p>>Realización virtual de juegos(ologramas)</p>
+			<p>>Computadores dedicados a probar versiones alfas y betas</p></code>
 
 		<p>The corresponding controller for this page is found at:</p>
 		<code>application/controllers/Welcome.php</code>
@@ -83,7 +85,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<p>If you are exploring CodeIgniter for the very first time, you should start by reading the <a href="user_guide/">User Guide</a>.</p>
 	</div>
 
-	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds. <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?></p>
+	<p class="footer">Pagina cargada en <strong>{elapsed_time}</strong> seconds. <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?></p>
 </div>
 
 </body>

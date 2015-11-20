@@ -35,7 +35,7 @@
 </head>
  <style>
  body{
-    font: 400 15px Lato, sans-serif;
+    font: 400 20px Lato, sans-serif;
  }
  </style>
 <body style="margin-top:0px">
