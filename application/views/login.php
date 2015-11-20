@@ -73,9 +73,9 @@
 <div class="Info">
     <p><u><h2>Sistema de Autentificatión</h2></u></p><br>
     <p>&nbsp;</p>   
-    <p>Example:</p>
+    <p>Ejemplo:</p>
     <p><strong>e-mail</strong>: gonzalo@esto.es</p>
-    <p><strong>password</strong>: simpson123</strong></p>
+    <p><strong>contraseña</strong>: simpson123</strong></p>
 </div>
 
 </body>
