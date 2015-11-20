@@ -25,6 +25,7 @@ class Php extends CI_Controller {
 				else{
 					$data['error']="E-mail or password incorrects, try again";
 					$this->load->view('login',$data);//lo enviamos a la pantalla del login
+					
 				}
 			}
 		}	

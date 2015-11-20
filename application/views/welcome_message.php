@@ -79,13 +79,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<p>>Realización virtual de juegos(ologramas)</p>
 			<p>>Computadores dedicados a probar versiones alfas y betas</p></code>
 
-		<p>The corresponding controller for this page is found at:</p>
-		<code>application/controllers/Welcome.php</code>
+		<p>Contamos con localidades de trabajo a lo largo de todo el mundo</p>
+		<code><p>>New York</p>
+			<p>>New York</p>
+			<p>>Paris</p></code>
 
 		<p>If you are exploring CodeIgniter for the very first time, you should start by reading the <a href="user_guide/">User Guide</a>.</p>
 	</div>
 
-	<p class="footer">Pagina cargada en <strong>{elapsed_time}</strong> seconds. <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?></p>
+	<p class="footer">Pagina cargada en <strong>{elapsed_time}</strong> segundos. <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?></p>
 </div>
 
 </body>
