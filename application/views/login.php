@@ -33,12 +33,14 @@
 <meta property="fb:admins" content="100001608753773" />
  
 </head>
+
  <style>
  body{
     font: 400 20px Lato, sans-serif;
  }
  </style>
 <body style="margin-top:0px">
+
 <?php echo form_open('php/login'); ?>
 <div class="Info">
     <p class="Titulo"><h1>Login with your e-mail and password to access</h1></p>
@@ -65,7 +67,7 @@
            
     <div class="fila">
         <div class="LoginUsuariosCabecera"><input type="submit" value="Submit"></div>
-        
+        <div class="LoginUsuariosCabecera"><input type="submit" name="registrar" value ="Register"></div>
     </div>        
 </div>
 </form>

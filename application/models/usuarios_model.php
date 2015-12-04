@@ -9,5 +9,7 @@ class Usuarios_model extends CI_Model{
       $query = $this->db->get('usuarios');
       return $query->row();       //   Devolvemos al controlador la fila que coincide con la búsqueda. (FALSE en caso que no existir coincidencias)
    }
+
+   
 }
 ?>
