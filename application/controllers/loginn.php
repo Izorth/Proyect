@@ -12,8 +12,8 @@ class Loginn extends CI_Controller{
 		if(!isset($_POST['maillogin'])){//si no recibimos ningun valor proveniente del formulario, significa que el usuario recien ingresa
 			$this->load->view('loginn');//Pantalla formulario de ingreso
 
-		}else if ($_POST[registrar]) {
-			$this->load->model('registro');
+		}else if (isset($_POST['registrar'])) {
+			$this->load->view('registro');
 			
 		}
 		else{//el usuario apreto ingresar, osea q ya paso por el inicio
@@ -26,7 +26,7 @@ class Loginn extends CI_Controller{
 				$ExisteUsuarioyPassword=$this->usuarios_model->ValidarUsuario($_POST['maillogin'],$_POST['passwordlogin']);//comprobamos q el usuario exista en la base de datos
 				if($ExisteUsuarioyPassword){//true si existe, flase si no
 					echo "Validation Ok<br><br><a href=''>Exit</a>";//si logro validar
-					$this->load->view('welcome_message.php');
+					$this->load->view('index2.html');
 				}
 				else{
 					$data['error']="E-mail or password incorrects, try again";

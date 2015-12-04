@@ -1,0 +1,36 @@
+body{
+
+	margin:0;
+	padding: 0;
+	background: #eee;
+	font-family: "Hammersmith One";
+
+
+}html,body{
+
+	height: 100%;
+}
+#Parrafo form{
+	width: 500px;
+	padding: 10px;
+	margin: 0 auto 0 auto;
+	position: relative;
+	height: 260px;
+	border-radius: 10px;
+	border: 1px solid #ccc;
+	box-shadow: 0px 5px 5px rgba(0,0,0,0,7);
+	background: white;
+}
+#Parrafo input[type=text]{
+	text-align: center;
+	width: 70%;
+}
+#Parrafo label{
+	width: 80%;
+	margin: 0 auto;
+	display: block;
+	font-size: 20px;
+}
+#Parrafo p{
+	margin: 10px 0;
+}

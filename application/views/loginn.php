@@ -15,9 +15,9 @@
 	<?php echo form_open("", array("id" => "login_form")); ?>
 
 	<label>Usuarios</label>
-	<input type="text" name="maillogin" value="<?= set_value('maillogin'); ?>" size="65" >
+	<input type="text" name="maillogin" value="<?= set_value('maillogin'); ?>" size="63" >
 	<label>Contraseña</label>
-	<input type="password" name="passwordlogin" value="<?= set_value('passwordlogin'); ?>" size="65" >
+	<input type="password" name="passwordlogin" value="<?= set_value('passwordlogin'); ?>" size="63" >
 
 	<input type="submit" value="Ingresar" name="ingresar" id="bt_form">
 
