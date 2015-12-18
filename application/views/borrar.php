@@ -19,22 +19,23 @@
     </div>
   </div>
 </nav>
-	<title>Register user</title>
+	<title>Registro de usuarios</title>
 	<link href="http://fonts.googleapis.com/css?family=Hammersmith+One" rel="stylesheet" type="text/css">
 	<?php $this->load->helper('url');?>
 	<?php echo link_tag("ccss/estilos/style.css"); ?>
 </head>
 	<body>
-		<p><h1>Work with Us</h1></p>
+		<p><h1>Delete Users</h1></p>
 	<section id="Parrafo">
-		<form action="<?php echo base_url(); ?>index.php/loginn/insertar" method="post">
+		<form action="<?php echo base_url(); ?>index.php/loginn/mostrar" method="post">
 			
-			<p><label>E-mail: </label><input type="text" name="email" /></p>
-			<p><label>User-type:(1>Admin / 2>Employee) </label><input type="text" name="usertype" /></p>
 			
-			<p><label>Password: </label><input type="password" name="password" /></p>
-			<p><label>Confirm password: </label><input type="password" name="confirmar" /></p>
-			<p><input type="submit" name="save" value="Save"/></p>
+			<p><label>Write the e-mail to delete: </label><input type="text" name="email" /></p>
+			
+			
+			
+			
+			<p><input type="submit" name="delete" value="Complete"/></p>
 		</form>
 
 	</section>

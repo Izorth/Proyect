@@ -19,20 +19,61 @@
     </div>
   </div>
 </nav>
-	<title>Register user</title>
+	<title>Edit</title>
 	<link href="http://fonts.googleapis.com/css?family=Hammersmith+One" rel="stylesheet" type="text/css">
 	<?php $this->load->helper('url');?>
 	<?php echo link_tag("ccss/estilos/style.css"); ?>
 </head>
-	<body>
-		<p><h1>Work with Us</h1></p>
+<style>
+table, td, th {    
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 15px;
+}
+</style>
+  <div class="container">
+  <body> 
+  <section id="Parrafo">
+<table class="table">
+         <!-- <thead>
+            <tr>
+              <th>Usuarios</th>
+              <th>Tipo</th>
+              <th>contraseña </th>
+            </tr>
+          </thead>
+          <tbody>
+            <?php foreach ($usuarios as $user): ?>
+              <tr>
+                <td><?php echo $user['Usuario'] ?></td>
+                <td><?php echo $user['Usertype'] ?></td>
+                <td><?php echo $user['Password'] ?></td>
+                <td>
+                  <div class="btn-group">
+                  </div>
+                </td>
+              </tr>
+          </tbody>
+          <?php endforeach ?>-->
+
+</table>
+	
+		<p><h1>Change itself</h1></p>
 	<section id="Parrafo">
 		<form action="<?php echo base_url(); ?>index.php/loginn/insertar" method="post">
 			
-			<p><label>E-mail: </label><input type="text" name="email" /></p>
-			<p><label>User-type:(1>Admin / 2>Employee) </label><input type="text" name="usertype" /></p>
+			<p><label>E-mail: </label><input value="<?php echo $user['Usuario'] ?>" type="text" name="email" /></p>
+			<p><label>User-type:(1=Admin / 2=Employee) </label><input value="<?php echo $user['Usertype'] ?>" type="text" name="usertype" /></p>
 			
-			<p><label>Password: </label><input type="password" name="password" /></p>
+			<p><label>Password: </label><input value="<?php echo $user['Password'] ?>" type="text" name="password" /></p>
 			<p><label>Confirm password: </label><input type="password" name="confirmar" /></p>
 			<p><input type="submit" name="save" value="Save"/></p>
 		</form>

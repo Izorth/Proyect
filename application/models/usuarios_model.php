@@ -10,6 +10,36 @@ class Usuarios_model extends CI_Model{
       return $query->row();       //   Devolvemos al controlador la fila que coincide con la búsqueda. (FALSE en caso que no existir coincidencias)
    }
 
+     /* public function search_users($usertype){
+        $this->db->like('Usertype', $usertype);
+        $query = $this->db->get('usuarios');
+        if($query->num_rows() > 0 )
+        {
+            return $query->result();
+        }
+    }
+
+ $data['search_after_users'] = $this->consultas_model->search_users('I');*/
+
+
+
+   public function eliminar2($email){
+     $this->db->where('Usuario', $email);
+
+     if ($this->db->delete('usuarios')){
+      echo "Usuario eliminado<br><br>";
+      $this->load->view('loginn');
+    }
+   }
+
+
+   public function AddUsuario($data1){
+
+   	if ($this->db->insert('usuarios', $data1))
+   		return true;
+   	else
+   		return false;
+   }
    
 }
 ?>

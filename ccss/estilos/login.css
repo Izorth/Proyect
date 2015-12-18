@@ -21,7 +21,7 @@ body{
 	padding: 10px;
 	margin: 0 auto 0 auto;
 	position: relative;
-	height: 260px;
+	height: 270px;
 	border-radius: 10px;
 	border: 1px solid #ccc;
 	box-shadow: 0px 5px 5px rgba(0,0,0,0,7);
@@ -39,9 +39,19 @@ body{
 	font-size:22px;
 
 }
+
+#login_form h1{
+	   font-size: 24px;
+      text-transform: uppercase;
+      color: #044605;
+      font-weight: 600;
+      margin-bottom: 30px;
+
+}
+
 #login_form label{
 	width: 80%;
-	margin: 0 auto;
+	margin: 0 auto 0 auto;
 	display: block;
 	font-size: 20px;
 }

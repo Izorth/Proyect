@@ -13,8 +13,8 @@
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Home</a></li>
         <li><a href="http://localhost/Codeigniter/index.php/loginn">Login</a></li>
-        <li><a href="http://localhost/Codeigniter/index.php/registro">Register</a></li> 
-        <li><a href="http://localhost/Codeigniter/index.php/index2">Main Page</a></li> 
+        <li><a href="#registro">Register</a></li> 
+        <li><a href="#index2.html">Main Page</a></li> 
       </ul>
     </div>
   </div>
